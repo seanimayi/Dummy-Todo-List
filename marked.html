@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do app</title>
+    <link rel="stylesheet" href="marked.css" />
+    <script src="marked.js"></script>
+  </head>
+
+  <body>
+    <div class="main_container">
+      <div class="container_content">
+        <div class="input_container">
+          <h2>Chat To Do List.</h2>
+          <div>
+            <input
+              type="text"
+              placeholder="Type Here"
+              id="inp"
+              class="input"
+              autofocus
+            />
+            <button id="btn" onclick="func()">Enter</button>
+          </div>
+          <div id="error"></div>
+        </div>
+        <div class="list_container">
+          <div class="list_content" id="list">
+            <!--List Will Be Displayed Here-->
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,10 @@
+ <li class="li">
+                        <span class="list_header">
+                            <input type="checkbox" />
+                            <h3>${input}</h3>
+                        </span>
+                        <div>
+                            <span>Edit</span>
+                            <span>Del</span>
+                        </div>
+                    </li>
